@@ -161,7 +161,7 @@
 #set_property PACKAGE_PIN D11  [get_ports {MIO40_PS_GPIO1_3       }];  # "D11.MIO40_PS_GPIO1_3"
 #set_property PACKAGE_PIN B11  [get_ports {MIO44_PS_GPIO1_4       }];  # "B11.MIO44_PS_GPIO1_4"
 #set_property PACKAGE_PIN A11  [get_ports {MIO45_PS_GPIO1_5       }];  # "A11.MIO45_PS_GPIO1_5"
-#set_property PACKAGE_PIN C9   [get_ports {MIO38_SPI0_SCLK        }];  # "C9.MIO38_SPI0_SCLK"
+set_property PACKAGE_PIN C9   [get_ports {sout_0        }];  # "C9.MIO38_SPI0_SCLK"
 #set_property PACKAGE_PIN B10  [get_ports {MIO41_SPI0_CS          }];  # "B10.MIO41_SPI0_CS"
 #set_property PACKAGE_PIN D12  [get_ports {MIO42_SPI0_MISO        }];  # "D12.MIO42_SPI0_MISO"
 #set_property PACKAGE_PIN E13  [get_ports {MIO43_SPI0_MOSI        }];  # "E13.MIO43_SPI0_MOSI"
